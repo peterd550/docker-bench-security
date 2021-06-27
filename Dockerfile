@@ -1,10 +1,8 @@
-# REPOSITORY https://github.com/docker/docker-bench-security
+FROM alpine:3.12
 
-FROM alpine:3.2
+ENV VERSION 3.12.0
 
-ENV VERSION 1.10.0
-
-MAINTAINER dockerbench.com
+MAINTAINER peter.dicker@gmail.com
 
 WORKDIR /usr/bin
 
